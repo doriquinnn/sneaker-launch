@@ -109,7 +109,7 @@ section.hero {
     img {
         width: 100%;
         object-fit: cover;
-        height: 11em;
+        height: 12em;
     }
 
     .title {
@@ -232,6 +232,28 @@ section.hero {
             width: 25em;
             justify-self: left;
         }
+    }
+
+}
+
+.footer-area {
+    padding: 5em 0;
+    text-align: center;
+
+    .container .footer-area {
+        font: normal 500 23px/30px;
+
+        .social h5 {
+            font-size: 22px;
+
+            .social a>i {
+                font-size: 22px;
+                padding: 2rem;
+                color: rgb(172, 31, 237);
+                justify-self: center;
+            }
+        }
+
     }
 
 }

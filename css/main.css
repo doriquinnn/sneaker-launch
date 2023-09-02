@@ -99,7 +99,7 @@ section.hero .down-arrow path {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  height: 11em;
+  height: 12em;
 }
 .more-info .title {
   font-weight: bold;
@@ -197,6 +197,23 @@ section.hero .down-arrow path {
     justify-self: left;
   }
 }
+.footer-area {
+  padding: 5em 0;
+  text-align: center;
+}
+.footer-area .container .footer-area {
+  font: normal 500 23px/30px;
+}
+.footer-area .container .footer-area .social h5 {
+  font-size: 22px;
+}
+.footer-area .container .footer-area .social h5 .social a > i {
+  font-size: 22px;
+  padding: 2rem;
+  color: rgb(172, 31, 237);
+  justify-self: center;
+}
+
 @media only screen and (min-width: 1200px) {
   .wrapper {
     width: 1200px;
